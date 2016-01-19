@@ -1,4 +1,5 @@
 addict
+appdirs
 CherryPy>=3.6.0
 Flask>=0.10.1
 Flask-HTTPAuth>=2.3.0
