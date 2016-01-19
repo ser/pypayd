@@ -1,5 +1,17 @@
-.. image:: https://travis-ci.org/ser/pypayd-ng.svg?branch=master
+.. image:: https://img.shields.io/travis/ser/pypayd-ng.svg
     :target: https://travis-ci.org/ser/pypayd-ng
+.. image:: https://img.shields.io/pypi/pyversions/pypayd-ng.svg
+    :target: https://pypi.python.org/pypi/pypayd-ng
+.. image:: https://img.shields.io/pypi/v/pypayd-ng.svg
+    :target: https://pypi.python.org/pypi/pypayd-ng
+.. image:: https://img.shields.io/pypi/l/pypayd-ng.svg
+    :target: https://pypi.python.org/pypi/pypayd-ng
+.. image:: https://img.shields.io/pypi/status/pypayd-ng.svg
+    :target: https://pypi.python.org/pypi/pypayd-ng
+.. image:: https://img.shields.io/pypi/format/pypayd-ng.svg
+    :target: https://pypi.python.org/pypi/pypayd-ng
+.. image:: https://coveralls.io/repos/github/ser/pypayd-ng/badge.svg?branch=master
+    :target: https://coveralls.io/github/ser/pypayd-ng?branch=master 
 
 pypayd-ng
 =========
