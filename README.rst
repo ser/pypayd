@@ -27,13 +27,13 @@ If you prefer to use a developement version:
 ``git clone https://github.com/ser/pypayd-ng``
 
 following that ``cd`` into the pypayd-ng directory and execute:
-``pip3 install -r pip-requirements.txt``.
+``pip3 install -r requirements.txt``.
 
 Configuration
 -------------
 
 You are able to configure pypayd via creating ``pypayd.conf`` file.
-Consult ``src/config.py`` for configuration values.
+Consult ``pypayd-ng/config.py`` for configuration values.
 
 currency exchange rates
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -103,7 +103,7 @@ dependencies
 ------------
 
 -  Python3
--  See ``pip-requirements.txt``
+-  See ``requirements.txt``
 -  ``zbarimg`` binary is required for tests only, you can find it in ``zbar-tools`` package in debian/ubuntu
 
 to do
