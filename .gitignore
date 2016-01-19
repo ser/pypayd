@@ -1,2 +1,12 @@
 __pycache__
-*.pyc
+*.py[cod]
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+*~
+
+# due to using tox and pytest
+.tox
+.cache
