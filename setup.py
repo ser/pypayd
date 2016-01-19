@@ -22,7 +22,7 @@ setup(
     author_email="pyhon@random.re",
 
     # Packages
-    packages=["pypayd-ng"],
+    packages=["pypayd-ng", "pypayd-ng/pypayd"],
 
     # Main script is only one
     scripts=["pypayd-ng/pypayd-ng.py"],
