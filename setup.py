@@ -15,7 +15,7 @@ setup(
     name="pypayd-ng",
 
     # Version number (initial):
-    version="0.0.2",
+    version="0.0.4",
 
     # Application author details:
     author="Serge Victor",
@@ -50,5 +50,6 @@ setup(
     long_description=open("README.rst").read(),
 
     # Dependent packages (distributions)
-    install_requires=reqs
+    install_requires=reqs,
+
 )
