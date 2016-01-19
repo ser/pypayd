@@ -15,17 +15,17 @@ setup(
     name="pypayd-ng",
 
     # Version number (initial):
-    version="0.0.5",
+    version="0.0.6",
 
     # Application author details:
     author="Serge Victor",
     author_email="pyhon@random.re",
 
     # Packages
-    packages=["pypayd_ng", "pypayd_ng/pypayd"],
+    packages=["pypayd"],
 
     # Main script is only one
-    scripts=["pypayd_ng/pypayd_ng.py"],
+    scripts=["pypayd_ng.py"],
 
     # Include additional files into the package
     include_package_data=True,

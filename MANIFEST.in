@@ -1,6 +1,9 @@
-recursive-include pypayd_ng *.py
 include *.txt
+include *.py
 include *.md
-recursive-include pypayd_ng *.txt
-recursive-include pypayd_ng/test *.png
-recursive-include pypayd_ng/test *.json
+recursive-include pypayd *.py
+recursive-include pypayd *.txt
+recursive-include test *.py
+recursive-include test *.png
+recursive-include test *.json
+recursive-include test *.txt
