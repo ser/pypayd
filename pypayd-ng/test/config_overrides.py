@@ -1,1 +1,0 @@
-from pypayd import config
