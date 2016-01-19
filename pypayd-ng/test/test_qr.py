@@ -15,10 +15,10 @@ class QRCode(unittest.TestCase):
         #convert from web to img form
         qr_image = qr_image.replace("data:image/png;base64,", '', 1)
         qr_image = b64decode(qr_image.encode('utf-8'))
-        with open("test/qr_test.png", "wb") as wfile:
+        with open("pypayd-ng/test/qr_test.png", "wb") as wfile:
             wfile.write(qr_image)
         try:
-            payload_out = subprocess.check_output(['zbarimg', '-q', 'test/qr_test.png'])
+            payload_out = subprocess.check_output(['zbarimg', '-q', 'pypayd-ng/test/qr_test.png'])
             self.assertEqual(payload_out.decode('utf-8').rstrip('\n'), "QR-Code:bitcoin:" + payload_in)
         except FileNotFoundError:
             print("zbarimg not found skipping qr test")
