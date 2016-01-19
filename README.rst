@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/ser/pypayd-ng.svg?branch=master
+    :target: https://travis-ci.org/ser/pypayd-ng
+
 pypayd-ng
 =========
 
