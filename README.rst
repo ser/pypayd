@@ -45,7 +45,7 @@ Configuration
 -------------
 
 You are able to configure pypayd via creating ``pypayd.conf`` file.
-Consult ``pypayd-ng/config.py`` for configuration values.
+Consult ``pypayd_ng/pypayd/config.py`` for configuration values.
 
 currency exchange rates
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,7 +75,7 @@ Insert the publickey into a file ``payment_wallet.txt`` on your online
 server. Then run pypayd, specifying type of the wallet you are using
 (for example Copay):
 
-``pypayd-ng.py --server wallet --wallet-type="copay" --from-file="payment_wallet.txt"``
+``pypayd_ng.py --server wallet --wallet-type="copay" --from-file="payment_wallet.txt"``
 
 Then from your webserver (i.e. to create an order for a payment of 20
 USD):
