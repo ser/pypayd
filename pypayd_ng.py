@@ -11,6 +11,7 @@ import appdirs
 from configobj import ConfigObj
 from pypayd import wallet, db, payments, api, config
 
+
 def try_type_eval(val):
     """try_type_eval(val)"""
     try:

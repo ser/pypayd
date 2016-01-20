@@ -33,7 +33,12 @@ key only!).
 Installation
 ------------
 
-The recommended installation is to use ``pip3 install pypayd-ng``.
+You will probably need to install some additional packages from your
+distribution, for debian/ubuntu it will be:
+
+``apt-get install zlib1g-dev libjpeg-dev``
+
+The recommended installation is to use: ``pip3 install pypayd-ng``
 
 If you prefer to use a developement version:
 ``git clone https://github.com/ser/pypayd-ng``
